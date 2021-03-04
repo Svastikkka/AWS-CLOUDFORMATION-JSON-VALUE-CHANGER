@@ -1,0 +1,33 @@
+{
+    "name": "aws-cloudformation-json-value-changer",
+    "description": "This project use to update json data of aws cloudformation",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node dist/src/test-pipe",
+      "dev": "tsc -p tsconfig.src.json"
+    },
+    "typeCoverage": {
+      "atLeast": 90
+    },
+    "keywords": [
+      "bitbucket",
+      "webhook"
+    ],
+    "repository": "",
+    "author": "manshu sharma",
+    "license": "Private",
+    "dependencies": {
+      "request": "^2.59.0",
+      "request-promise-native": "^1.0.7",
+      "shelljs": "0.8.3",
+      "shelljs.exec": "1.1.8",
+      "command-line-args": "5.1.1",
+      "jsonfile": "6.1.0"
+    },
+    "devDependencies": {
+      "@types/node": "^14.14.31",
+      "typescript-coverage-report": "^0.5.0"
+    }
+  }
+  
