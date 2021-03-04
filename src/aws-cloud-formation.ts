@@ -13,6 +13,10 @@ let opts: {
     new_branch: string,
 };
 
+async function InstanceType(file: string, branch: string, repo: string, workspace: string){
+
+}
+
 async function ImageID(file: string, branch: string, repo: string, workspace: string){
     jsonfile.readFile(file, function (err, obj) {
         if (err) console.error(err)
