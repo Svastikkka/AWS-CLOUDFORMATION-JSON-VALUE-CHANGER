@@ -1,13 +1,13 @@
 # Aws Cloudformation Json Value Changer
-A tool use to change the value of cloudformation conguration
+A tool use to change the value of cloudformation configuration
 
 
 # Changes done so far
-- It can change ami id  (done)
-
+- Change ami id  (done)
+- Change InstanceType (inprogress)
 # File structure
 ```
-Repository
+Repository (EC2 Repository)
 |
 |
 |------deploy
